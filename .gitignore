@@ -1,0 +1,16 @@
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore configuration files
+.env
+config.json
+
+# Ignore log files
+*.log
+
+
+.idea/
