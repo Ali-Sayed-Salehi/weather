@@ -1,7 +1,8 @@
+require('dotenv').config();
 const express = require("express");
 const app = express();
 const https = require("https");
-const apiKey = "3a862f8d74edc685a84b7c2b48cbb45f";
+const apiKey = process.env.API_KEY;
 let latitude = 44.50;
 let longitude = -73.56;
 
